@@ -8,6 +8,8 @@ age = 31
 
 if age >= 18:
     print("vous etes majeur")
+else:
+    print("vous etes majeur")
 # Affichez "Vous êtes majeur !" si la condition est vraie, sinon affichez "Vous êtes mineur."
 
 # Partie 2 - Types de Variables :
@@ -32,16 +34,20 @@ message = nom + str(taille)
 print (message)
 # Partie 4 - Types de Variables Avancées :
 # Convertissez l'âge en float.
+age = float(age)
 # Multipliez la taille par l'âge et stockez le résultat dans une nouvelle variable appelée resultat.
 # Affichez le résultat.
 
-str(age)
-def multiplication(x: int, y: float) -> int:
+
+def multiplication(x: float, y: float) -> float:
     resultat = x * y
     return resultat
 
 resultat= multiplication(x=age, y=taille)
 print(resultat)
+
+nom_utilisateur = input("Entrez votre nom : ")
+print("j'ai envie de te sucer " + nom_utilisateur + " !")
 
 # Conseils :
 # Utilisez la fonction input() pour obtenir des valeurs de l'utilisateur.
