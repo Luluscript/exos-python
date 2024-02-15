@@ -1,4 +1,5 @@
 # Exercice sur les Variables et les Conditions :
+
 # Partie 1 - Variables et Conditions simples :
 # Demandez à l'utilisateur de saisir son âge.
 # Stockez cette valeur dans une variable appelée age.
@@ -30,14 +31,13 @@ else:
 # Affichez le message résultant.
 
 message = nom + str(taille)
-
 print (message)
+
 # Partie 4 - Types de Variables Avancées :
 # Convertissez l'âge en float.
 age = float(age)
 # Multipliez la taille par l'âge et stockez le résultat dans une nouvelle variable appelée resultat.
 # Affichez le résultat.
-
 
 def multiplication(x: float, y: float) -> float:
     resultat = x * y
@@ -46,11 +46,28 @@ def multiplication(x: float, y: float) -> float:
 resultat= multiplication(x=age, y=taille)
 print(resultat)
 
-nom_utilisateur = input("Entrez votre nom : ")
-print("j'ai envie de te sucer " + nom_utilisateur + " !")
 
 # Conseils :
 # Utilisez la fonction input() pour obtenir des valeurs de l'utilisateur.
+
+nom_utilisateur = input("Entrez votre nom : ")
+print("j'ai envie de te sucer " + nom_utilisateur + " !")
+
 # Pensez à convertir les entrées de l'utilisateur en types appropriés (par exemple, utilisez int() pour convertir une entrée en entier).
 # Utilisez les opérateurs de comparaison (<, >, <=, >=, ==, !=) pour les conditions.
 # Ce exercice encourage la compréhension des variables, des conditions, des types de variables et de la manipulation de chaînes de caractères en Python.
+
+nom_utilisateur2 = input("Entrez votre nom : ")
+print("Bonjour " + nom_utilisateur + " !")
+
+taille_utilisateur = input("Entrez votre taille : ")
+age_utilisateur = input("Entrez votre age: ")
+print("Vous avez" + age_utilisateur + " ans, et vous mesurez " + taille_utilisateur + " centimètres.")
+
+if taille >= 1.75:
+    print ("its ok")
+else:
+    print ("T'es un naim")
+
+
+
