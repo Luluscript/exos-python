@@ -91,6 +91,13 @@ def display_results(li: list[int]) -> tuple[list[Type[list]], list[Type[list]], 
 res6 = display_results(numbers)
 print(res6)
 
+for x in numbers:
+    if x % 2 :
+        print(f"pair")
+    else:
+        print(f"impair")
 
-
+for x in numbers:
+    if x > 5:
+        print(f"je suis pas certaine d'avoir compris l'énnoncé")
 
