@@ -26,13 +26,12 @@ Mot = input("Entrez un mot: ")
 for lettre in Mot:
     print(Mot)
 
-import sys
 
 mot = input("Entrez un mot : ")
 
 for lettre in mot:
     print(lettre)
-    sys.stdout.flush()
+
 
 # Partie 4 - Utilisation de Boucles pour Calculs :
 # Demandez à l'utilisateur de saisir un nombre entier.

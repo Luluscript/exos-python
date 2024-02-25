@@ -1,0 +1,1 @@
+mot = input("Entrez un mot : ")

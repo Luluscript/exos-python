@@ -33,6 +33,7 @@ else:
 message = nom + str(taille)
 print (message)
 
+
 # Partie 4 - Types de Variables Avancées :
 # Convertissez l'âge en float.
 age = float(age)
