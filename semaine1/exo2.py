@@ -52,7 +52,7 @@ print(resultat)
 # Utilisez la fonction input() pour obtenir des valeurs de l'utilisateur.
 
 nom_utilisateur = input("Entrez votre nom : ")
-print("j'ai envie de te sucer " + nom_utilisateur + " !")
+print("Bien le bonjour " + nom_utilisateur + " !")
 
 # Pensez à convertir les entrées de l'utilisateur en types appropriés (par exemple, utilisez int() pour convertir une entrée en entier).
 # Utilisez les opérateurs de comparaison (<, >, <=, >=, ==, !=) pour les conditions.
