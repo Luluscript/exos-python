@@ -122,5 +122,4 @@ def exo9():
 #set : tableau d’éléments uniques non indexés
 #frozenset : set immuables (non modifiable)
 
-print("exo7")
-exo9()
+print(exo_3())
